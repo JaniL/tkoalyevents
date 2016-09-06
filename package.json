@@ -1,13 +1,13 @@
 {
   "name": "tkoalyevents",
   "version": "1.0.0",
-  "description": "",
+  "description": "Retrieve events from tko-äly event calendar",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jani Luukko <jjluukko@cs.helsinki.fi>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "request": "^2.74.0",
     "xml2js": "^0.4.17"
