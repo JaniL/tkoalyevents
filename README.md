@@ -22,7 +22,7 @@ tkoalyevents(function(events) {
     registration_ends: null,
     cancellation_starts: null,
     cancellation_ends: null,
-    location: 'Elisa Appelsiini, Kaarlenkatu 11, Helsinki',
+    location: 'Yritys, Helsinki',
     category: 'Yritysvierailu',
     description: 'Lisää tietoa pian!\r\n\r\n--\r\n\r\nMore information soon!',
     price: null,
