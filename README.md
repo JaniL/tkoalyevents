@@ -7,8 +7,7 @@ var tkoalyevents = require('tkoalyevents')
 
 tkoalyevents(function(events) {
   console.log(events);
-
-  })
+})
 ```
 
 ```javascript
