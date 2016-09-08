@@ -13,11 +13,11 @@ tkoalyevents(function(events) {
 ```javascript
 
 [
-  { id: '1094',
-    user_id: '797',
+  { id: 1094,
+    user_id: 797,
     name: 'Yritysvierailu',
-    created: '2016-09-07 13:47:10',
-    starts: '2016-10-03 17:00:00',
+    created: 2016-09-03T16:01:10.000Z,
+    starts: 2016-10-29T14:00:00.000Z,
     registration_starts: null,
     registration_ends: null,
     cancellation_starts: null,
@@ -29,13 +29,13 @@ tkoalyevents(function(events) {
     map: null,
     max_participants: null,
     realised_participants: null,
-    membership_required: '0',
+    membership_required: false,
     outsiders_allowed: null,
-    template: '0',
+    template: false,
     responsible: 'Matt Doe',
-    show_responsible: '0',
-    avec: '0',
-    deleted: '0' },
+    show_responsible: false,
+    avec: false,
+    deleted: false },
 ]
 
 ```
