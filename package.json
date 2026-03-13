@@ -1,15 +1,29 @@
 {
   "name": "tkoalyevents",
-  "version": "1.1.0",
-  "description": "Retrieve events from tko-äly event calendar",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Retrieve events from TKO-äly event calendar",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json",
+    "pretest": "npm run build",
+    "test": "node --test ./test",
+    "prepublishOnly": "npm run build"
   },
-  "author": "Jani Luukko <jjluukko@cs.helsinki.fi>",
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Jani Luukko <jj.luukko@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "request": "^2.74.0",
-    "xml2js": "^0.4.17"
+    "lodash.isdate": "^4.0.1",
+    "lodash.sortby": "^4.7.0",
+    "node-ical": "^0.22.1"
+  },
+  "devDependencies": {
+    "@types/lodash.isdate": "^4.0.9",
+    "@types/lodash.sortby": "^4.7.9",
+    "@types/node": "^18.19.118",
+    "typescript": "^5.4.5"
   }
 }
