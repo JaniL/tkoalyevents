@@ -2,6 +2,8 @@
 
 Retrieve events from TKO-äly's public calendar feed.
 
+⚠️ This project is currently not actively maintained.
+
 ## Requirements
 
 - Node.js 18+
